@@ -1,7 +1,7 @@
 import 'package:core_dependencies/equatable.dart';
 
-class {{feature.pascalCase()}}Params extends Equatable {
-  const {{feature.pascalCase()}}Params();
+class {{name.pascalCase()}}Params extends Equatable {
+  const {{name.pascalCase()}}Params();
 
 
   Map<String, dynamic> toJson() => {};
