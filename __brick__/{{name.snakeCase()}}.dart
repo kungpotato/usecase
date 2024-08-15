@@ -15,7 +15,7 @@ class {{name.pascalCase()}}
 
   @override
   Stream<Success<{{name.pascalCase()}}Entity>> call(
-    {{feature.pascalCase()}}Params params,
+    {{name.pascalCase()}}Params params,
   ) {
     // TODO: do something
     throw UnimplementedError();
