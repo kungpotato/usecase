@@ -7,6 +7,7 @@ import 'package:core_domain/usecase.dart';
 ///
 /// extends NoParamsUseCase<Success<{{name.pascalCase()}}Entity>> if no params
 ///
+/// Next step add your method to the repository, and use it in the call method
 class {{name.pascalCase()}}
     extends UseCase<{{name.pascalCase()}}Params, Success<{{name.pascalCase()}}Entity>> {
   {{name.pascalCase()}}(this.repository);
